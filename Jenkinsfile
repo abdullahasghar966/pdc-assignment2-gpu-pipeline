@@ -13,9 +13,9 @@ pipeline {
                 bat 'python -m pip install -q -r requirements.txt'
             }
         }
-        stage('Train model') {
+        stage('Train on Kaggle GPU') {
             steps {
-                bat 'python train.py'
+                powershell 'powershell -ExecutionPolicy Bypass -File scripts\\train_on_kaggle.ps1'
             }
         }
         stage('Reload API') {

@@ -1,0 +1,13 @@
+{
+  "id": "abdullahasghar12/digit-gpu-trainer",
+  "title": "digit-gpu-trainer",
+  "code_file": "gpu_kernel.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}
